@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+    pi_shrink:
+        container_name: "piShrink"
+        hostname: "pi-shrink"
+        build: pishrink
+        volumes:
+            - ./:/root/
+        privileged: true
