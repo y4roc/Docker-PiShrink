@@ -7,8 +7,8 @@ Docker-Image to shrink your Pi-Image in
 
 ### Step 2: Clone this repository
 
-  git clone https://github.com/thhan/Docker-PiShrink
-  cd Docker-PiShrink
+  `git clone https://github.com/thhan/Docker-PiShrink`
+  `cd Docker-PiShrink`
   
 ## Usage
 
