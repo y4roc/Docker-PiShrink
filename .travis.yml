@@ -6,10 +6,9 @@ services:
 before_script:
     - sudo sysctl -w vm.max_map_count=262144
     - wget https://downloads.raspberrypi.org/raspbian_lite_latest -O /tmp/raspbian.zip
-    - unzip /tmp/raspbian.zip -d ./raspian.iso
-    - ls -lah
+    - unzip /tmp/raspbian.zip -d ./raspian
     - docker-compose build
     - docker-compose up -d
 
 script:
-    - docker exec -i -u root pi_shrink bash -c "pishrink ./raspian.iso"
+    - docker exec -i -u root pi_shrink bash -c "pishrink ./raspian/*.img"
