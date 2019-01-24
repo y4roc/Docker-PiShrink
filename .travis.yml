@@ -11,4 +11,5 @@ before_script:
     - docker-compose up -d
 
 script:
+    - docker-compose run pi_shrink bash -c "fix_orphaned_inode_list ./raspian/*.img"
     - docker-compose run pi_shrink bash -c "pishrink ./raspian/*.img"
