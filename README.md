@@ -1,6 +1,6 @@
 # Docker-PiShrink [![Travis](https://img.shields.io/travis/thhan/Docker-PiShrink.svg?branch=mast&style=flat-square)](https://travis-ci.org/thhan/Docker-PiShrink)
 
-Docker-Image to shrink your Pi-Image in 
+Docker-Image to shrink your Pi-Image in Docker without VirtualBox.
 
 ## Installation
 
