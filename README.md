@@ -1,4 +1,5 @@
-# Docker-PiShrink
+# Docker-PiShrink [![Travis](https://img.shields.io/travis/thhan/Docker-PiShrink.svg?style=flat-square)](https://travis-ci.org/thhan/Docker-PiShrink)
+
 Docker-Image to shrink your Pi-Image in 
 
 ## Installation
