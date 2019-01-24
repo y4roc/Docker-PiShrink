@@ -11,4 +11,4 @@ before_script:
     - docker-compose up -d
 
 script:
-    - docker exec -i -u root pi_shrink bash -c "pishrink ./raspian/*.img"
+    - docker exec -i -u root piShrink bash -c "pishrink ./raspian/*.img"
