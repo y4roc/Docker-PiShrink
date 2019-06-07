@@ -1,10 +1,11 @@
-FROM debian:8
+FROM debian:9
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y \
     wget \
     parted \
-    sudo
+    sudo \
+    udev
 
 RUN wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh && \
     chmod +x pishrink.sh && \
