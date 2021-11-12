@@ -1,4 +1,4 @@
-# Docker-PiShrink [![Travis](https://img.shields.io/travis/thhan/Docker-PiShrink.svg?branch=mast&style=flat-square)](https://travis-ci.org/thhan/Docker-PiShrink)
+# Docker-PiShrink [![Travis](https://img.shields.io/travis/y4roc/Docker-PiShrink.svg?branch=mast&style=flat-square)](https://travis-ci.org/y4roc/Docker-PiShrink)
 
 Docker-Image to shrink your Pi-Image in Docker without VirtualBox.
 
@@ -9,7 +9,7 @@ Docker-Image to shrink your Pi-Image in Docker without VirtualBox.
 ### Step 2: Clone this repository
 
   ``` bash
-  git clone https://github.com/thhan/Docker-PiShrink
+  git clone https://github.com/y4roc/Docker-PiShrink
   cd Docker-PiShrink
   ```
   
