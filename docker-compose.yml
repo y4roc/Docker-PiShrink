@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 
 services:
     pi_shrink:
@@ -6,5 +6,5 @@ services:
         hostname: "pi-shrink"
         build: pishrink
         volumes:
-            - ./:/root/
+            - ./:/root/:rw
         privileged: true
